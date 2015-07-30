@@ -6,11 +6,6 @@ date:   2015-07-17
 author: "Paratransit Team"
 
 ---
-testing 1.2.3
-
-
-![alt text](http://dssg-paratransit.github.io/main_repo/images/rohan_picture.jpg)
-
 
 <img src= "/main_repo/images/anat.jpg" alt="Anat" style="height:250px; padding-right: 10px; padding-bottom: 10px" align="left">
 
