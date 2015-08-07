@@ -26,5 +26,5 @@ rides. Namely, cost-prohibitive rides tend to traverse comparatively large spati
 and time distances with pick up or dropoff locations that are
 disperesed away from the cluster of other riders.
 
-<img src="/main_repo/images/plotting_rides.gif" alt = "Plotting Rides" style="width:480px;">
+<img src="/blog/images/plotting_rides.gif" alt = "Plotting Rides" style="width:480px;">
  
