@@ -9,8 +9,6 @@ As part of our historical analysis for King County Metro (KCM) we looked into th
 
 Using time series techniques, we analyze over 18 months (January 2014 to May 2015) of transit data and draw the following conclusions about out-of-service buses.
 
-<!--more-->
-
 Our time series model uses the daily percentage of out-of-service buses (relative to all buses in operation that day). We observed:
 <ul>
 <li>On average, 7.47% of the buses are out of service each day</li>
@@ -21,6 +19,8 @@ Our time series model uses the daily percentage of out-of-service buses (relativ
 
 <img src="/blog/images/Plot - Out-of-Service Time Series.png" align = "middle" alt = "out-of-service buses time series" style="width:480px;">
 
+
+<!--more-->
 
 For those with more knowledge of time series, additional analyses revealed:
 <ul>
