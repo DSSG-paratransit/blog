@@ -7,7 +7,7 @@ author: "Rohan Aras"
 
 Here's an interesting plot: 
 
-<img src="/blog/images/deadheahHistnew.png" align="middle">
+<img src="/blog/images/deadheahHistnew.png" style='margin: auto'>
 
 In traditional fixed route transit planning, deadheading usually refers to portions of the route that are not in service: say, going from base to the first stop. However, since paratransit exists in a slightly different paridigm where routes are flexible and the pickup and dropoff locations of riders are known, deadheading refers to any portion of the route without a rider. Given that any increase in time that buses have to be out increases system costs, and deadheading itself doesn't actively service anyone, deadheading is a necesary evil that needs to be minimized. 
 
