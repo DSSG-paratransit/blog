@@ -13,12 +13,5 @@ Additionally, we're trying to create predictive analyses and visuals that take a
 
 Below we've included some sample output of our Frankenstein algorithm. The screenshot shows the algorithm checking buses within a fixed radius for their feasibility to insert a new passenger on the route. 
   
-<img src="/blog/images/CPB_expression.png" alt = "CPB" style="width:480px;">
+<img src="/blog/images/feasibility_screenshot.png" style="width:480px;">
 
-That is, the cost-per-boarding of client *j* is the sum over all of the 'legs' during which the client is on board the bus of the total seconds the leg takes divided by the number of passengers during the leg. For example, suppose client 123 is on the bus for 2 legs (that is, ze gets on the bus, the bus stops to service another client, and then drops client 123 deboards), the first leg takes 900 seconds and there are 4 total passengers, and the second leg takes 400 seconds and there are 3 passengers. This cost per boarding is $4.86$. Note that the average Access service cost per second is $48.09/3600, i.e. $0.013558 per second.
-
-From the 4-month ridership data (Jan 1, 2015 - April 30, 2015) we received from King County Metro, we can see the distribution of cost per boardings:
-
-<img src="/blog/images/CPB_hist.png" alt = "CPB" style="width:480px;">
- 
- 
