@@ -24,7 +24,7 @@ Our time series model uses the daily percentage of out-of-service buses (relativ
 
 For those with more knowledge of time series, additional analyses revealed:
 <ul>
-<li>Out-of-service bus percentages may not be stationary<li/> 
+<li>Out-of-service bus percentages may not be stationary</li> 
 <li>Despite unit root suggesting non-stationarity, cross validation comparisons between ARIMA models indicate an AR(2)MA(2) may be the best model to forecast future daily percentages of out-of-service buses</li>
 </ul>
  
