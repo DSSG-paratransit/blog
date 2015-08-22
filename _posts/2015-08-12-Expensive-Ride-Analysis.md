@@ -16,7 +16,7 @@ That is, the cost-per-boarding of client *j* is the sum over all of the 'legs' d
 
 From the 4-month ridership data (Jan 1, 2015 - April 30, 2015) we received from King County Metro, we can see the distribution of cost per boardings:
 
-<img src="/blog/images/CPB_hist.png" alt = "CPB" style="width:480px;">
+<img src="/blog/images/CPB_hist.jpeg" alt = "CPB Histogram" style="width:480px;">
  
  From here, we've chosen to call the top 10% of these costs the 'ugly rides' (this is a term used by KCM... we didn't coin it!). These 'ugly rides' account for 24.4% of all client boarding costs. Now KCM has a working definition for ugly ride.
 
