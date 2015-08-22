@@ -5,11 +5,10 @@ date: 2015-08-21
 author: "Kivan Polimis" 
 ---
 
-As part of our historical analysis for King County Metro (KCM) we looked into the possibility of predicting out-of-service buses. Buses become out-of-service generally after breaking down or if they are unable to arrive at their destinations. Predicting out-of-service buses is important from an operational perspective because KCM and their contractors can better manage their vehicle fleet by having adequate standby vehicles each day. 
+As part of our historical analysis for King County Metro (KCM) we looked into the possibility of predicting out-of-service buses each day. Buses become out-of-service generally after breaking down or if they are unable to arrive at their destinations. Predicting out-of-service buses is important from an operational perspective because KCM and their contractors can better manage their vehicle fleet by preparing adequate standby vehicles each day. 
 
-Using time series techniques, we analyze over 18 months (January 2014 to May 2015) of transit data and draw the following conclusions about out-of-service buses.
+Our model uses the daily percentage of out-of-service buses relative to all buses in operation that day (instead of raw counts of out-of-service buses). Using time series techniques, we analyze almost 18 months (January 2014 to May 2015) of KCM transit data and draw the following conclusions about out-of-service buses:
 
-Our time series model uses the daily percentage of out-of-service buses (relative to all buses in operation that day). We observed:
 <ul>
 <li>On average, 7.47% of the buses are out of service each day</li>
 <li>No deterministic trend over time</li>
@@ -25,7 +24,7 @@ Our time series model uses the daily percentage of out-of-service buses (relativ
 For those with more knowledge of time series, additional analyses revealed:
 <ul>
 <li>Out-of-service bus percentages may not be stationary</li> 
-<li>Despite unit root suggesting non-stationarity, cross validation comparisons between ARIMA models indicate an AR(2)MA(2) may be the best model to forecast future daily percentages of out-of-service buses</li>
+<li>Despite unit root tests suggesting non-stationarity, cross validation comparisons between ARIMA models indicate an AR(2)MA(2) may be the best model to forecast future daily percentages of out-of-service buses</li>
 </ul>
  
 <img src="/blog/images/Plot - ARIMA Cross-Validation.png" align = "middle" alt = "ARIMA Cross-Validation" style="width:480px;">
