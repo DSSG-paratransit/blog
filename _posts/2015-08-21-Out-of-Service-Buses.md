@@ -30,7 +30,7 @@ For those with more knowledge of time series, additional analyses revealed:
 <img src="/blog/images/Plot - ARIMA Cross-Validation.png" align = "middle" alt = "ARIMA Cross-Validation" style="width:480px;">
 
 
-Back to the weekly seasonal variation. Although t-test between the means of daily out-of-service events did not reveal statistical differences across weekdays, we did notice the average Friday count seems below the average Monday count. The seasonal difference between Friday and Monday is also shown in our weekly time series analysis so we created hypotheses for weekly trends in out-of-service bus reporting. One guess (your guess is <strike> as good</strike> better than ours) is that out-of-service counts could be lower on Friday (relative to Monday) because drivers are headed home for the weekend and report buses as out-of-service when they return on Monday.  
+Back to the weekly seasonal variation. Although t-test between the daily means of out-of-service events did not reveal statistical differences across weekdays, we did notice the average Friday count seems below the average Monday count. The weekly seasonal difference between Friday and Monday is also shown in our time series analysis so we created hypotheses for weekly trends in out-of-service bus reporting. One guess (your guess is <strike> as good</strike> better than ours) is that out-of-service counts could be lower on Friday (relative to Monday) because drivers are headed home for the weekend and report buses as out-of-service when they return on Monday.  
 
 <img src="/blog/images/Plot - Out-of-Service Boxplots by Day of the Week.png" align = "middle" alt = "Out-of-Service Boxplots" style="width:480px;">
  
