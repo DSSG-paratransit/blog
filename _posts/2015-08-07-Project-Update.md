@@ -11,7 +11,7 @@ Additionally, we're trying to create predictive analyses and visuals that take a
 
 <!--more-->
 
-Below we've included some sample output of our Frankenstein algorithm. The screenshot shows the algorithm checking buses within a fixed radius for their feasibility to insert a new passenger on the route. 
+Below we've included some sample output of our Frankenstein algorithm <a href="http://stsc3000.github.io/images/posts/frankenstein/frankenstein_excited.jpg/">Frankenstein algorithmm</a> . The screenshot shows the algorithm checking buses within a fixed radius for their feasibility to insert a new passenger on the route. 
   
 <img src="/blog/images/feasibility_screenshot.png" style="width:480px;">
 
