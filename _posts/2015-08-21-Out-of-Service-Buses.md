@@ -23,11 +23,11 @@ Our model uses the daily percentage of out-of-service buses relative to all buse
 
 For those with more knowledge of time series, additional analyses revealed:
 <ul>
-<li>Out-of-service bus percentages may not be stationary</li> 
-<li>Despite unit root tests suggesting non-stationarity, cross validation comparisons between ARIMA models indicate an AR(2)MA(2) may be the best model to forecast future daily percentages of out-of-service buses</li>
+<li>Out-of-service bus percentages are likely stationary</li> 
+<li>Cross validation comparisons between ARMA models indicate an AR(1)MA(2) may be the best model to forecast future daily percentages of out-of-service buses</li>
 </ul>
  
-<img src="/blog/images/Plot - ARIMA Cross-Validation.png" align = "middle" alt = "ARIMA Cross-Validation" style="width:480px;">
+<img src="/blog/images/Plot - ARMA Cross-Validation.png" align = "middle" alt = "ARMA Cross-Validation" style="width:480px;">
 
 
 Back to the weekly seasonal variation. Although t-test between the daily means of out-of-service events did not reveal statistical differences across weekdays, we did notice the average Friday count seems below the average Monday count. The weekly seasonal difference between Friday and Monday is also shown in our time series analysis so we created hypotheses for weekly trends in out-of-service bus reporting. One guess (your guess is <strike> as good</strike> better than ours) is that out-of-service counts could be lower on Friday (relative to Monday) because drivers are headed home for the weekend and report buses as out-of-service when they return on Monday.  
